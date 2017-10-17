@@ -1,0 +1,22 @@
+uestions / issues regarding use of Python to teach Intro Data Science
+======================================================================
+
+* Functions vs methods
+  - Use of methods for objects that are not instances of classes
+  - No obvious criteria for choice between methods and functions
+
+* Modules
+  Students need to remember whihc functions / data structures are in
+  which modules
+
+* Indexing
+  Lists can't be indexed with "range":
+    the_list[range(5)] does not work - has to use
+    the_list[0:5]
+  Arrays can
+    a = np.array(range(10))
+    a[range(0, 5)]  works
+
+* Data frames seem complex - three different ways of indexing
+  
+  
